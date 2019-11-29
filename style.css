@@ -43,7 +43,7 @@
 {
     display: inline;
     float: right;
-    color: rgba(0,0,0,0.87);
+    color: rgba(0, 0, 0, 0.658);
     margin-right: 12px;
     font-size: 16px;
     margin-top: 8px;
@@ -58,10 +58,34 @@
 }
 .centrer
 {
-    text-align: center;
-    background-color:#f2f2f2 ;
+    display: inline;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 36px;
+    width: 135px;
+    border-color: #f2f2f2;
     border-style: solid;
-
+    text-align: center;
+    cursor: pointer;
+    margin-right: 7px;
+}
+.centrera
+{
+    display: inline;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 36px;
+    width: 135px;
+    border-color: #f2f2f2;
+    border-style: solid;
+    text-align: center;
+    cursor: pointer;
+}
+.centre
+{
+    text-align: center;
 }
 #navbar
 {
@@ -76,10 +100,11 @@
     font-size: 15px;
     background-color:#f2f2f2;
     padding: 10px;
-    margin-top: 210px;
+    margin-top: 161px;
     border-top-style: solid;
     border-top-color: rgb(228, 228, 228);
     font-family: Arial, Helvetica, sans-serif;
+    height: 7px;
 }
 .gauche_lien
 {
@@ -87,12 +112,10 @@
     font-size: 13px;
     background-color:#f2f2f2;
     padding: 10px;
-    margin-top: 0px;
-    border-top-style: solid;
-    border-top-color: rgb(228, 228, 228);
+    margin-top: 170px;
     font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
 }
-
 .second
 {
     text-align: right;
@@ -103,12 +126,13 @@
     margin-top: 0px;
 
 }
+
 .second span{
     float: left;
+    height: 7px;
 }
 .bas{
     background-color:#f2f2f2;
     border-top-color: rgb(228, 228, 228);
-    margin-top: 10px;
-
 }
+
